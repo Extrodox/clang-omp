@@ -14,7 +14,7 @@ class ClangOmp < Formula
 
     resource "clang" do
       url "https://github.com/clang-omp/clang/archive/2015-04-01.tar.gz"
-      sha256 "2717115e5ba491e3b8119311f0d792420ba41be34a89733b9880eb3d3c09fbe5"
+      sha256 "4a11433ec5f79d40d3b4e1927aee3a6faeee6a3c882293e1fcbe0c5e18eb6639"
     end
 
     resource "libcxx" do
