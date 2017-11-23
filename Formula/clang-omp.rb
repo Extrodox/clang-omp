@@ -14,21 +14,13 @@ class ClangOmp < Formula
 
     resource "clang" do
       url "https://github.com/clang-omp/clang/archive/2015-04-01.tar.gz"
-      sha256 "4a11433ec5f79d40d3b4e1927aee3a6faeee6a3c882293e1fcbe0c5e18eb6639"
+      sha256 "2717115e5ba491e3b8119311f0d792420ba41be34a89733b9880eb3d3c09fbe5"
     end
 
     resource "libcxx" do
       url "https://github.com/llvm-mirror/libcxx/archive/release_35.tar.gz"
-      sha256 "eefc594d20389dbfdab7e4e225c01658357ceee0fbbd69e983173167876cfb9b"
+      sha256 "df23b356ae1953de671d1dc9093568330e074bbe48cd6d93d16173a793550c71"
     end
-  end
-
-  bottle do
-    revision 2
-    sha256 "9db72fb0f069d564f9ad509922ebabda30008587924b4af33b8b80c5795e7fdd" => :el_capitan
-    sha256 "2d29cc7bcde757610a325e57c0ea0162cee97c2cf04ea424f8e4010c57ae2295" => :yosemite
-    sha256 "3989eb56c26ca2903ea1bde7aaf0b02c05a5dbfc1eae59056860abca9c6d5fec" => :mavericks
-    sha256 "2a848d5efa46b5cc6e906f2c71608c8098238a397e6979912dcef2b5b1d2807c" => :mountain_lion
   end
 
   head do
