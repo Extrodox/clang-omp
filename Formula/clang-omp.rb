@@ -19,7 +19,7 @@ class ClangOmp < Formula
 
     resource "libcxx" do
       url "https://github.com/llvm-mirror/libcxx/archive/release_35.tar.gz"
-      sha256 "df23b356ae1953de671d1dc9093568330e074bbe48cd6d93d16173a793550c71"
+      sha256 "eefc594d20389dbfdab7e4e225c01658357ceee0fbbd69e983173167876cfb9b"
     end
   end
 
